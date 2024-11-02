@@ -1,0 +1,141 @@
+/* Container principal que engloba todo o conteúdo */
+.container {
+    font-family: 'Sans-serif';
+    background: linear-gradient(to right, #001f3f, #003366, #005bb5);
+    color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Conteúdo principal centrado */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Layout flexível para ajustar o conteúdo */
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Seção da esquerda com o logo e informações */
+.left-section {
+    text-align: center;
+}
+
+.logo {
+    width: 500px;
+    margin-bottom: 400px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+/*nao possui conta*/
+.description {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.register-link {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+/* Formulário de login */
+.form {
+    background-color: #130233;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+
+.input-group {
+    margin-bottom: 15px; 
+    display: flex;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    border-color: #1a1a1a;
+    outline: none;
+    background-color: #f5f5f5;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgot-link {
+    color: #0056b3;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #333333;
+}
+
+.separator {
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-buttons{
+    
+}
